@@ -1,3 +1,2 @@
-# MyFirst-project
-This is MyFirst project. I am going to change the World.
-That is it.
+# JsonParserToTable
+Parses the Json array and shows it in the table
