@@ -30,10 +30,10 @@ public class ShowProgram extends JFrame
         btnOpenFile.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 fileChooser.setDialogTitle("Select directory");
-                // Определение режима - только файл
+               
                 fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY );
                 int result = fileChooser.showOpenDialog(ShowProgram.this);
-                // Если фаил выбран, покажем его в сообщении
+                
                 if (result == JFileChooser.APPROVE_OPTION ) {
 
                     try {
